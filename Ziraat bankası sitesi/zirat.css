@@ -1,0 +1,435 @@
+*{
+    padding:0;
+    margin:0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   list-style: none;
+   text-decoration:none;
+
+}
+
+header{
+    position:fixed;
+    right:0;
+    top:0;
+    z-index: 1000;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+
+.logo{
+      font-size: 30px;
+      font-weight: 700;
+      color: white;
+      
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    color: white;
+    margin-left:60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom:2px solid transparent;
+    transition: all .55s ease;
+}
+
+.menu a:hover{
+    border-bottom:2px solid white;
+
+}
+
+#menu-icon{
+     color:white;
+     font-size: 30px;
+     z-index: 10001;
+     cursor: pointer;
+     display:none;
+
+}
+
+.kahraman{
+    height: 100%;
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg,#bb0a0a 0%, #f70a15  28.53%,#ec0b29 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+section{
+    padding: 0 19%;
+}
+
+.kahraman-metin h1{
+       font-size:15px;
+       font-weight:200;
+       color: white;
+       margin-bottom:40px;
+}
+
+.kahraman-metin h4{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    line-height: 1;
+    color:white;
+    margin: 0 0 45px;
+}
+
+.kahraman-metin P{
+    color: white;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+
+.kahraman-imge img{
+      width: 700px;
+      height: auto;
+      height: 400px;
+}
+
+
+.kahraman-metin a{
+    display: inline-block;
+    color: white;
+    background: #cf0d0d;
+   border: 1px solid transparent;
+   padding: 12px 30px;
+   line-height: 1.4;
+   font-size: 14px;
+   font-weight: 500;
+   border-radius: 30px;
+   text-transform: uppercase;
+   transition: all.55s ease;
+   
+}
+
+.kahraman-metin a:hover{
+    background: transparent;
+    border:1px solid white;
+    transform: translateX(8px);
+
+}
+
+.kahraman-metin a.ctaa{
+    background: transparent;
+    border:1px solid white;
+    margin-left: 20px;
+}
+
+.kahraman-metin a.ctaa i{
+    vertical-align: middle;
+    margin-right:5px;
+    
+}
+
+
+.icons{
+    position:absolute;
+    top: 50%;
+    padding: 0 9%;
+    transform: translateY(-50%);
+}
+
+.icons i{
+    display: block;
+   margin: 26px 0;
+   font-size: 24px;
+    color: white;
+    transition: all .50s ease;
+}
+
+.icons i:hover{
+    color: #940a0a;
+    transform: translatey(-5px);
+}
+
+.scroll-down{
+    position:absolute;
+    bottom:6%;      
+    right:9%;
+}
+ .scroll-down i{
+    display: block;
+    padding: 12px;
+    font-size: 25px;
+    color: white;
+    background: #940a0a;
+    border-radius: 30px;
+    transition: all.50s ease;
+ }
+
+.scroll-down i:hover{
+    transform: translatey(-5px);
+ }
+
+img{
+    vertical-align: middle;
+    border-style: none;
+    
+
+}
+
+img {
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.text{
+    text-align: center;
+
+}
+
+.img-container{
+    float : left ;
+    width :33.33%;
+    padding : 5px ;
+}
+
+.temizle :after{
+    content : " ";
+    clear: both ;
+    display:table;
+}
+
+
+.sadece{
+     margin-top:400px;
+     display:grid; 
+     grid-template-columns:1fr 1fr 1fr;
+     column-gap:20px;
+     gap:29px;
+     width:250px;
+     height: auto;
+     display: inline-block;
+     margin-right: 15px;
+     border-radius: 10px;
+     box-shadow: 0 2px 8px 2px rgba(20, 23,
+ 28, .15);
+     margin-bottom:15px;;      
+}
+
+h1{
+   
+    text-align: center;
+    color: white;
+    font-size:50px;
+    text-align:center;
+    margin-top:200px;
+    border-radius: 10px;
+    box-shadow: 0,2px 8px 2px,rgba(20, 23, 28, 15)
+    
+}
+
+.rsm{
+    width:100%;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    transition: opacity 0.8s;
+    }
+  
+     .rsm:hover {
+        opacity: 0.6;
+        }
+
+        h2{
+            margin:10px;
+            color:red;
+        }
+.arakabilan{
+    background-image:url(./5fed923918c7731040fb1edb.png);
+    padding:25%;
+    
+
+
+}
+
+
+.kapsayici{
+    margin-top:-60px;
+     display:grid; 
+     grid-template-columns:1fr 1fr 1fr;
+   column-gap:20px;
+   gap:28px;
+  
+}
+
+
+.text1{
+   text-align:left -0px;
+   font-size: 18px;
+   margin-top:-15px;
+   color: #cf0d0d;
+   
+}
+
+samp{
+    font-size: 18px;
+    color: white;
+    
+    
+}
+
+.center{
+    font-size: 18px;
+    color: white;
+    margin-left:20px;
+    
+
+     
+}
+.resim:hover {
+    opacity: 0.6;
+    }
+
+.resim{
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    transition: opacity 0.8s;
+}
+
+.yazı{
+    color:white;
+    border-bottom:2px solid transparent;
+    transition: all .55s ease;
+}
+
+.yazı:hover{
+    border-bottom:2px solid white;
+}
+
+#menü a{
+    color:black;
+    margin-left:60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom:2px solid transparent;
+    transition: all .55s ease;
+}
+#menü a:hover{
+    border-bottom:2px solid white;
+
+}
+
+#menü{
+    display: flex;
+}
+
+
+
+  .arkabilanalr{
+     background-color: rgb(124, 4, 4);
+  }
+
+  .responsive-img{
+      width: 300px;
+      float: right;
+       height: 155px;
+  }
+
+  
+
+  .kahraman-metinler a{
+    display: inline-block;
+    color: white;
+    background:#ec0b29;
+   border: 1px solid transparent;
+   padding: 12px 30px;
+   line-height: 1.4;
+   font-size: 14px;
+   font-weight: 500;
+   border-radius: 30px;
+   text-transform: uppercase;
+   transition: all.55s ease;
+   
+}
+
+.kahraman-metinler a:hover{
+    background: transparent;
+    border:1px solid white;
+    transform: translateX(8px);
+}
+
+.metin-yazı{
+    color:white;
+    font-size: 18px;
+}
+
+.text-metin{
+    color:black;
+    font-size:20px;
+}
+
+.arakabilanı{
+    height: 100%;
+    width:100%;
+    min-height: 100vh;
+    background-color:#cf0d0d;
+    position: relative;
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+}
+
+.metib{
+    color: black;
+}
+#menüler a{
+    color:white;
+    margin-left:60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom:2px solid transparent;
+    transition: all .55s ease;
+}
+#menüler a:hover{
+    border-bottom:2px solid white;
+
+}
+
+#menüler{
+    display: flex;
+}
+
+.elekbaslık{
+    color: black;
+    font-size:20px;
+}
+
+.hazırmetin{
+    color:white;
+    font-size:18px;
+}
+
+
+.text4{
+    color:black;
+    font-size:30px;
+    margin-top: 30px;
+    text-align: center;
+
+    
+}
+.müsteriler{
+    background-color: rgb(48, 50, 51);
+}

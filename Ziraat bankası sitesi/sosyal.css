@@ -1,0 +1,22 @@
+
+.social i{
+    display: block;
+   margin: 26px 0;
+   font-size: 24px;
+    color: white;
+    transition: all .50s ease;
+}
+
+.social i:hover{
+    color: #940a0a;
+    transform: translatey(-5px);
+}
+
+.social{
+    position:absolute;
+    top:20%;
+    padding: 0 5%;
+    margin-top:110px;
+    text-align: left;
+    transform: translateY(-50%);
+}

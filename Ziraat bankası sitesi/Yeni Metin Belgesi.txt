@@ -1,0 +1,10 @@
+245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%
+
+
+hero-text h4{
+   font-size: 18px;
+   font-weight: 600;
+    color: white;
+   margin-bottom: 10px;
+}
+
